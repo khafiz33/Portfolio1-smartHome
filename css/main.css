@@ -117,7 +117,7 @@ img {
 	height: 2.2rem;
 
 	border-radius: 50%;
-	
+
 	overflow: hidden;
 }
 
@@ -128,14 +128,16 @@ section {
 
 /* ==================== Navbar ==================== */
 nav {
-	width: 100vw;
-	height: 6rem;
+	position: fixed;
+	z-index: 2;
+	
 	display: grid;
 	place-items: center;
-	position: fixed;
+
+	width: 100vw;
+	height: 6rem;
 	top: 0;
 	left: 0;
-	z-index: 2;
 }
 
 .window-scroll {
@@ -162,8 +164,10 @@ nav button {
 
 .nav__logo {
 	position: absolute;
+
 	top: 50%;
 	left: 50%;
+	
 	transform: translate(-50%, -50%);
 }
 
