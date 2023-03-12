@@ -409,7 +409,7 @@ header p {
 
 .faq.open {
 	z-index: 1;
-	
+
 	color: var(--color-primary);
 	border-color: var(--color-primary);
 	box-shadow: 0 2rem 2rem var(--color-primary-variant);
@@ -434,6 +434,7 @@ header p {
 
 #downloadApp .cta {
 	justify-content: start;
+	
 	margin-top: 2rem;
 }
 
