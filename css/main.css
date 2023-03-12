@@ -285,7 +285,7 @@ header p {
 
 .about__article-title {
 	margin-bottom: 1.5rem;
-	
+
 	color: var(--color-black);
 }
 
@@ -305,11 +305,14 @@ header p {
 }
 
 .clients__container div {
-	background: var(--color-light);
 	display: grid;
 	place-items: center;
+	
 	height: 8rem;
 	padding: 3rem;
+
+	background: var(--color-light);
+
 	transition: all 300ms ease;
 }
 
