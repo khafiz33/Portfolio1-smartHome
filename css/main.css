@@ -434,24 +434,26 @@ header p {
 
 #downloadApp .cta {
 	justify-content: start;
-	
+
 	margin-top: 2rem;
 }
 
 /* ==================== Subscribe ==================== */
 .subscribe__container {
-	background: var(--color-primary);
-	color: var(--color-white);
 	display: flex;
 	align-items: center;
+	
 	padding: 4rem;
 	height: 20rem;
+
+	color: var(--color-white);
+	background: var(--color-primary);
 	border-radius: 2rem;
 }
 
 .subscribe__text p {
-	margin-top: 1.4rem;
 	width: 80%;
+	margin-top: 1.4rem;
 }
 
 #subscribe .btn {
