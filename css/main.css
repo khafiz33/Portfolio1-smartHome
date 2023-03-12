@@ -262,15 +262,16 @@ header p {
 
 .header__decorator-2 {
 	position: absolute;
-	
+
 	right: 0;
 	margin-top: -24rem;
 }
 
 /* ==================== About ==================== */
 .about__title {
-	text-align: center;
 	margin-bottom: 5rem;
+
+	text-align: center;
 }
 
 .about__article {
@@ -278,12 +279,14 @@ header p {
 	grid-template-columns: 1fr 1fr;
 	gap: 5rem;
 	align-items: center;
+
 	margin-top: 3rem;
 }
 
 .about__article-title {
-	color: var(--color-black);
 	margin-bottom: 1.5rem;
+	
+	color: var(--color-black);
 }
 
 .about__article .btn {
