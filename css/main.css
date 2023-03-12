@@ -823,7 +823,7 @@ footer ul li a:hover {
 		gap: 0;
 
 		margin-top: 5rem;
-		
+
 		text-align: center;
 	}
 
@@ -845,8 +845,9 @@ footer ul li a:hover {
 	/* ==================== Footer ==================== */
   .footer__container {
     grid-template-columns: 1fr;
-    text-align: center;
     gap: 2rem;
+		
+    text-align: center;
   }
 
   .footer__1 {
