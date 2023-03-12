@@ -666,7 +666,7 @@ footer ul li a:hover {
 		display: inline-block;
 
 		margin-right: 1.4rem;
-		
+
 		color: var(--color-white);
 		background: transparent;
 
@@ -684,6 +684,7 @@ footer ul li a:hover {
 	/* ==================== Header ==================== */
 	header {
 		padding-bottom: var(--bottom-section-padding-mobile);
+
 		background: var(--color-primary);
 	}
 
@@ -700,9 +701,11 @@ footer ul li a:hover {
 	}
 
 	.header__socials {
-		top: 24%;
-		gap: 1rem;
 		font-size: 1rem;
+		
+		gap: 1rem;
+
+		top: 24%;
 	}
 
 	.header__decorator-2 {
