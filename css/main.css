@@ -603,6 +603,12 @@ footer ul li a:hover {
 		width: 100vw;
 	}
 
+	.logo__box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.nav__logo {
 		position: relative;
 
