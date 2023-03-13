@@ -795,6 +795,7 @@ footer ul li a:hover {
 		font-style: normal;
 		margin: 0;
 		padding: 0;
+		position: relative;
 	}
 	.nav__logo {
 		margin-left: 1rem;
