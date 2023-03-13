@@ -603,6 +603,12 @@ footer ul li a:hover {
 		width: 100vw;
 	}
 
+	.logo__box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.nav__logo {
 		position: relative;
 
@@ -788,15 +794,6 @@ footer ul li a:hover {
 	}
 
 	/* ==================== Navbar ==================== */
-	.nav__logo h3 {
-		font-size: 2rem;
-		font-weight: 400;
-		line-height: 1;
-		font-style: normal;
-		margin: 0;
-		padding: 0;
-		position: relative;
-	}
 	.nav__logo {
 		margin-left: 1rem;
 	}
