@@ -2,6 +2,10 @@ nav {
 	background: var(--color-primary);
 }
 
+.nav__logo {
+	top: 0;
+}
+
 #contact {
 	padding-top: 10rem;
 }
@@ -94,21 +98,6 @@ nav {
 	background: var(--color-black);
 
 	cursor: pointer;
-}
-
-.nav__container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.nav__logo {
-	top: 0;
-	left: 0;
-}
-
-body {
-  background: red;
 }
 
 /* ==================== Media queries ==================== */
