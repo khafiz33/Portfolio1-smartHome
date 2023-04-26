@@ -13,9 +13,9 @@ nav {
 }
 
 #contact .nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #contact .container aside {
@@ -96,13 +96,19 @@ nav {
 	cursor: pointer;
 }
 
-/* ==================== Media queries (tablets) ==================== */
-@media screen and (max-width: 1024px) {
-  .nav__container {
-		display: flex;
-    align-items: center;
-    justify-content: space-between;
-	}
+.nav__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__logo {
+	top: 0;
+	left: 0;
+}
+
+body {
+  background: red;
 }
 
 /* ==================== Media queries ==================== */
