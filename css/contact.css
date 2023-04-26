@@ -12,6 +12,12 @@ nav {
 	gap: 5rem;
 }
 
+#contact .nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #contact .container aside {
 	font-size: 0.9rem;
 
