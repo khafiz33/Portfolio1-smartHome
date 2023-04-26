@@ -90,6 +90,15 @@ nav {
 	cursor: pointer;
 }
 
+/* ==================== Media queries (tablets) ==================== */
+@media screen and (max-width: 1024px) {
+  #contact .nav__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
 /* ==================== Media queries ==================== */
 @media screen and (max-width: 600px) {
 	#contact .container {
