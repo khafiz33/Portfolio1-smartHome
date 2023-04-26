@@ -2,10 +2,6 @@ nav {
 	background: var(--color-primary);
 }
 
-body {
-  background: red;
-}
-
 #contact {
 	padding-top: 10rem;
 }
@@ -101,24 +97,18 @@ body {
 }
 
 /* ==================== Media queries (tablets) ==================== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   #contact .nav__container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
-}
+} */
 
 /* ==================== Media queries ==================== */
 @media screen and (max-width: 600px) {
 	#contact .container {
 		grid-template-columns: 1fr;
 		gap: 2rem;
-	}
-
-	#contact .nav__container {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
 	}
 }
