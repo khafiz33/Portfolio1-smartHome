@@ -97,13 +97,16 @@ nav {
 }
 
 /* ==================== Media queries (tablets) ==================== */
-/* @media screen and (max-width: 1024px) {
-  #contact .nav__container {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+@media screen and (max-width: 1024px) {
+  body {
+    background: red;
+  }
+  .nav__container {
+		position: relative;
+
+		width: 100vw;
 	}
-} */
+}
 
 /* ==================== Media queries ==================== */
 @media screen and (max-width: 600px) {
